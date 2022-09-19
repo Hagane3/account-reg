@@ -1,0 +1,40 @@
+.input {
+  background-color: #323644af;
+  height: 3em;
+  padding: 0.4em 0;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.input input {
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  height: 1.5em;
+  background: none;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+  background-color: transparent !important;
+}
+
+input:focus {
+  border: none;
+  outline-width: 0;
+  background: none;
+}
+
+.input label {
+  margin-left: 10%;
+  color: #6c7483;
+}

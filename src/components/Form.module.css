@@ -1,0 +1,70 @@
+.labels {
+  color: white;
+}
+
+.labels h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.labels h1 {
+  font-size: 2.5em;
+  margin: 0.2em 0;
+}
+
+.labels p {
+  font-weight: bold;
+}
+
+.labels a {
+  text-decoration: none;
+  color: #2a92ed;
+  margin-left: 1em;
+}
+
+.dot {
+  color: #2a92ed;
+}
+
+.form {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5em;
+}
+
+@media screen and (max-width: 1060px) {
+  .form {
+    margin: 0 auto;
+  }
+
+  .labels h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 70%;
+  }
+  .labels h1 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .form {
+    width: 80%;
+    height: max-content;
+    justify-content: center;
+  }
+}

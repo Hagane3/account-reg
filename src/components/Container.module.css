@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: left;
+  max-width: 1400px;
+  background-color: rgba(137, 175, 250, 0.298);
+  -webkit-box-shadow: 0px 0px 47px -9px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 47px -9px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 47px -9px rgba(66, 68, 90, 1);
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    position: static;
+    border-radius: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    overflow: scroll;
+  }
+}
