@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Simple user registration panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Demo: https://chic-platypus-5c781d.netlify.app
 
 ## Available Scripts
 
